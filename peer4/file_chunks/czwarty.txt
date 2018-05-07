@@ -1,0 +1,4 @@
+ytmów rozwi¹zania problemu komiwoja¿era. Algorytmy te powinny byæ dostarczane w postaci skompilowanych plików class. Klasy te nale¿y dodawaæ do programu i wykorzystywaæ z u¿yciem mechanizmu refleksji i ³adowaczy klas. Interfejs aplikacji powinien umo¿liwiæ za³adowanie nowych algorytmów, umo¿liwiaæ u¿ycie aktualnie za³adowanych algorytmów i wyœwietlaæ informacje o nich (klasy algorytmów powinny mieæ metody zawieraj¹ce nazwê i krótki opis algorytmu).
+
+
+Mo¿liwymi do wykorzystania algorytmami s¹: przegl¹d zupe³ny, algorytm najbli¿szego s¹siada, algory

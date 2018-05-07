@@ -1,0 +1,17 @@
+Lab 6. Aplikacja rozproszona z wykorzystaniem RMI.
+
+
+Wymagania: wiedza o sposobie tworzenia aplikacji rozproszonych z wykorzystaniem RMI.
+
+
+U¿ywaj¹c RMI nale¿y napisaæ aplikacjê rozproszon¹ bêd¹c¹ prostym systemem do wymiany plików. System sk³ada siê z 1 wêz³a centralnego oraz pewnej liczby wêz³ów klient-serwer (peer).
+
+
+Dla uproszczenia zak³adamy, ¿e wymieniane s¹ pliki tekstowe. Pliki przechoywane s¹ w sposób rozproszony np. na 3 wêz³ach, z których pierwszy posiada pierwsz¹ 1/3 pliku, drugi œrodkow¹ 1/3, a trzeci ostatni¹ 1/3.
+
+
+Wêze³ centralny musi wspieraæ metody: 
+
+registerNode — zarejestrowanie wêz³a i przypisanie mu identyfikatora.
+
+uploadFile — wys³anie pliku do centrali. Centrala musi wtedy okreœliæ 3 wêz³y, które bêd¹ przech

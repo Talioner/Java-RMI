@@ -1,0 +1,4 @@
+tm losowy, algorytm 2-opt itp. Nale¿y te¿ zaimplementowaæ algorytm bestOf, który powinien wykonywaæ co najmniej 2 z poprzednich algorytmów i zwracaæ lepszy z wyników (klasa algorytmu bestOf musi odpalaæ metody klas tych 2 innych algorytmów).
+
+
+Kod bajtowy ³adowanych klas powinien byæ umieszczany w dedykowanym do tego celu katalogu. Metody ³adowanych klas mog¹ mieæ atrybuty typu podstawowego, String lub tablice jednowymiarowych tych typów. Za³adowane klasy powinno daæ siê wy³adowaæ, czego potwierdzenie powinno daæ siê zauwa¿yæ korzystaj¹c z jconsol

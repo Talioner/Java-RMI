@@ -1,0 +1,10 @@
+Lab 4. Refleksja i ³adowanie klas.
+
+
+Wymagania: wiedza dotycz¹ca dzia³ania mechanizmu refleksji oraz ³adowania klas (ewentualnie w³asne ³adowacze klas).
+
+
+Nale¿y napisaæ program podaj¹cy dok³adne lub przybli¿one rozwi¹zanie problemu komiwoja¿era (zak³adamy graf pe³ny). Program powinienen posiadaæ mo¿liwoœæ wczytania grafu z dysku (format danych dowolny: mo¿e to byæ pe³na macierz, lista wspó³rzêdnych punktów, itp.). Dane grafu mo¿na przechowywaæ w programie jako jednowymiarow¹ tablicê.
+
+
+Pocz¹tkowo aplikacja nie powinna posiadaæ ¿adnych algor

@@ -1,0 +1,9 @@
+owywaæ plik i wys³aæ im czêœci tego pliku (u¿ywaj¹c interfejsu wêz³a). Wysy³anie plików nie powinno dzia³aæ (zwracaj¹c np. false), dopóki w systemie nie ma co najmniej 3 wêz³ów typu peer.
+
+getPeersForFile — pozwala uzyskaæ identyfikatory 3 wêz³ów przechowuj¹cych dany plik, wraz z informacj¹, który wêze³ przechowuje który fragment (najproœciej za³o¿yæ, ¿e identyfikatory wysys³ane s¹ w kolejnoœci przechowywanych fragmentów) lub informacjê o braku takiego pliku w systemie.
+
+Wêze³ typu peer musi wspieraæ metody: 
+
+acceptFileChunk — u¿ywana do przekazania wêz³owi fragmentu pliku. Musi byæ okreœlone jaki to jest plik (nazwa) i która z trzech jego czêœci jest przesy³ana.
+
+getFileChunk — u¿ywana do pobraniu od wêz³a fragmentu pliku o podanej nazwie.

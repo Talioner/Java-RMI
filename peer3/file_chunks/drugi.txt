@@ -1,0 +1,6 @@
+
+
+Interfejs wêz³a centralnego (konsolowy lub GUI) powinien co najmniej wyœwietlaæ zarejestrowane obecnie wêz³y (ich identyfikatory). Dobrze gdyby równie¿ wyœwietla³ dostêpne pliki tj. ich nazwy i identyfikatory wêz³ów, które posiadaj¹ te pliki. Interfejs wêz³a typu peer powinien wyœwietlaæ identyfikator wêz³a oraz posiadane pliki tj. ich nazwy oraz, który fragment przechowuj¹. Interfejs wêz³a powinien posiadaæ opcje/przyciski do: (1) zarejestrowania wêz³a, (2) wys³ania pliku, (3) pobrania pliku.
+
+
+Ka¿dy wêze³ typu peer powinien posiadaæ 2 katalogi na dysku: pierwszy dla fragmentów plików, które otrzyma³ do przechowania, drugi dla pobranych kompletnych plików. W przypadku realizacji konsolowej ka¿dy wêze³ powinien byæ uruchamiany w osobnej konsoli
